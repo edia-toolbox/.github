@@ -1,3 +1,5 @@
+# from: https://github.com/actions-automation/manage-your-labels/tree/main
+
 LABEL_GROUPS:
   DEFAULT:
     bug:
@@ -31,5 +33,5 @@ LABEL_GROUPS:
       description: Relates to git or github infrastructure.
       color: ad9cb0
 
-
 REPOS: {}
+# all repos in the org get the DEFAULT labels automatically; we need to keep the empty list here otherwise the action fails.
