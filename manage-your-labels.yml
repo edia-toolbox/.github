@@ -1,4 +1,9 @@
-# from: https://github.com/actions-automation/manage-your-labels/tree/main
+# Labels used in the EDIA toolbox organization
+#
+# Add new labels with their specification here. 
+# These labels are synced to all repos in the organization every 15 minutes by this [Action](.github/workflows/sync-labels.yml). 
+# We could also add labels selectively to subgroups of repos.
+# for details see: https://github.com/actions-automation/manage-your-labels/tree/main
 
 LABEL_GROUPS:
   DEFAULT:
