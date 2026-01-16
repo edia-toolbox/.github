@@ -1,0 +1,33 @@
+LABEL_GROUPS:
+  DEFAULT:
+    bug:
+      description: Something is kaputt!
+      color: d73a4a
+    docu:
+      description: Adds or requests improvements to documentation.
+      color: 0075ca
+    block:
+      description: Blocks further development.
+      color: d65523
+    looks:
+      description: Relates to looks or usability.
+      color: 12c87d
+    feat:
+      description: Adds or requests a new feature.
+      color: 8ad68d
+    fix:
+      description: Fixes a known issue.
+      color: cbe79e
+    boost:
+      description: Optimizes performance.
+      color: 6664b3
+    stash:
+      description: Put aside but not forgotten.
+      color: bfd4f2
+    prio:
+      description: Requires attention ASAP!!!
+      color: d93f0b
+    devops:
+      description: Relates to git or github infrastructure.
+      color: ad9cb0
+      
